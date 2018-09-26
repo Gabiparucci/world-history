@@ -1,0 +1,312 @@
+:root {
+    --primary: rgba(0, 0, 0, 0.54);
+}
+
+/*menu*/
+div.wrapper-menu {
+    height: 100px;
+}
+
+div.wrapper-menu,
+div.networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+}
+
+/*menu logo*/
+
+div.wrapper-menu div.logo {
+    width: 583px;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+div.wrapper-menu div.logo a svg {
+    fill: black;
+    width: 100px;
+}
+
+/*menu nav*/
+div.wrapper-menu nav.nav-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+div.wrapper-menu nav.nav-bar ul li {
+    padding: 0 20px;
+}
+
+div.wrapper-menu nav.nav-bar ul li a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+/*header*/
+
+header {
+    height: 80vh;
+    background: url(img/header.jpeg);
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+header div h1 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 100px;
+}
+
+header div h1 span {
+    color: #937863;
+}
+
+header div svg,
+div.about svg {
+    width: 200px;
+    fill: #000;
+}
+
+/*networks*/
+
+div.networks {
+    height: 100px;
+    border-top: 1px solid #bbb8b8;
+    border-bottom: 1px solid #bbb8b8;
+}
+
+div.networks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.networks ul li {
+    margin: 0 80px;
+}
+
+div.networks ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 30px;
+}
+
+/*topics*/
+
+div.topics {
+    padding: 0 15%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.topics div.firstline,
+div.topics div.secondline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+div.topics div.firstline div.firstwar div.img-first,
+div.topics div.firstline div.vietnam div.img-vietnam,
+div.topics div.secondline div.secondwar div.img-second,
+div.topics div.secondline div.hiroshima div.img-hiroshima{
+    border-radius: 50%;
+    width: 243px;
+    height: 243px;
+}
+
+div.topics div.firstline div.firstwar div.img-first {
+    background: url("img/firstwar.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+div.topics div.firstline div.vietnam div.img-vietnam {
+    background: url("img/vietnam.png");
+    background-size: cover;
+    background-position: right;
+}
+
+div.topics div.secondline div.secondwar div.img-second {
+    background: url("img/secondwar.jpeg");
+    background-size: cover;
+    background-position: right;
+}
+
+div.topics div.secondline div.hiroshima div.img-hiroshima {
+    background: url("img/bomb.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+div.topics div.firstline div.firstwar,
+div.topics div.secondline div.secondwar {
+    display: flex;
+    width: 50%;
+}
+
+div.topics div.firstline div.vietnam,
+div.topics div.secondline div.hiroshima {
+    flex: 1;
+    display: flex;
+}
+
+/*div.topics div.firstline div.firstwar img,*/
+/*div.topics div.firstline div.vietnam img,*/
+/*div.topics div.secondline div.secondwar img,*/
+/*div.topics div.secondline div.hiroshima img*/
+/*{*/
+
+/*box-shadow: 8px 7px #cecece4f;*/
+/*width: 256px;*/
+/*height: 216px;*/
+/*border-radius: 50%;*/
+/*}*/
+
+div.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 35px;
+}
+
+div.text a,
+div.about div.text-right h4 {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+div.text p,
+div.about div.text-right p,
+div.about div.text-left p {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/*About*/
+
+div.about {
+    padding: 0 15%;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc4a;
+}
+
+div.about div.logo-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+}
+
+div.about div.text-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.about div.text-left {
+    flex: 1;
+}
+
+/*footer*/
+
+footer {
+    height: 380px;
+    background-color: #171717;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20% !important;
+}
+
+footer div.menu-footer {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer div.menu-footer h4 {
+    line-height: 74px;
+    font-size: 40px;
+    color: #ccc;
+}
+
+footer div.menu-footer ul li svg {
+    fill: #ccc;
+    width: 20px;
+}
+
+footer div.menu-footer ul li a {
+    line-height: 40px;
+    color: #ccc;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer div.menu-footer ul li a:hover {
+    text-decoration: underline #937863;
+    color: #937863;
+}
+
+footer div.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer div.info div.address,
+footer div.info div.phone {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 150px;
+}
+
+footer div.info div.address div.title-address,
+footer div.info div.phone div.title-phone {
+    display: flex;
+    align-items: center;
+}
+
+footer div.info div.address div.title-address h6,
+footer div.info div.phone div.title-phone h6 {
+    font-size: 30px;
+    color: #ccc;
+}
+
+footer div.info div.address p,
+footer div.info div.phone p {
+    color: #ccc;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+footer div.info div.address div.title-address svg,
+footer div.info div.phone div.title-phone svg {
+    width: 34px;
+    fill: #cccccc;
+    margin-right: 15px;
+}

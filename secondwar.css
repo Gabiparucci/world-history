@@ -1,0 +1,72 @@
+div.header-second-war{
+    background: url("img/header-secondwar.jpeg");
+    height: 50vh;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.header-second-war h6{
+    font-size: 50px;
+    color: #000000;
+}
+
+div.header-second-war p{
+    font-size: 30px;
+    color: #000000;
+}
+
+div.content-one,
+div.content-two,
+div.content-three,
+div.content-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+    flex-direction: column;
+}
+
+div.content-two div.text-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.content-two div.text-img img{
+    width: 400px;
+}
+
+div.content-one h6,
+div.content-two h6,
+div.content-three h6,
+div.content-four h6,
+section.gallery h6{
+    padding-top: 45px;
+    font-size: 50px;
+    color: var(--primary);
+}
+
+div.content-one p,
+div.content-three p,
+div.content-two div.text-img p,
+div.content-four p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+div.content-two div.text-img img{
+    margin-right: 40px;
+}
+
+section.gallery{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20%;
+}

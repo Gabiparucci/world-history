@@ -1,0 +1,76 @@
+div.header-firstwar{
+    background: url("img/header-firstwar.jpeg");
+    height: 50vh;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.header-firstwar h6{
+    font-size: 50px;
+    color: #ccc;
+}
+
+div.header-firstwar p{
+    font-size: 30px;
+    color: #ccc;
+}
+
+div.content-one,
+div.content-three,
+div.content-four,
+div.content-five{
+    flex-direction: column;
+}
+
+div.content-one,
+div.content-two,
+div.content-three,
+div.content-four,
+div.content-five{
+    padding: 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.content-one p,
+div.content-two p,
+div.content-three p,
+div.content-four p,
+div.content-five p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+div.content-one h6,
+div.content-three h6,
+div.content-four h6,
+div.content-five h6{
+    padding-top: 45px;
+    font-size: 50px;
+    color: var(--primary);
+}
+
+div.content-two img{
+    height: 584px;
+    padding-right: 45px;
+    padding-top: 45px;
+}
+
+div.content-four div.text-image-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content-four div.text-image-four img{
+    width: 457px;
+}
+
+div.content-five {
+    margin-bottom: 30px;
+}
