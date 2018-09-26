@@ -1,0 +1,65 @@
+body{
+    background: url("img/login.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+section form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+    border: 4px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 450px;
+    border-radius: 25px;
+}
+
+section form input{
+    height: 45px;
+    width: 350px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+    outline: none;
+}
+
+section form button{
+    height: 45px;
+    width: 350px;
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+    color: var(--light);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
+
+div.header a{
+    text-decoration: none;
+}
+
+div.header a h1 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 100px;
+    color: var(--light);
+}
+
+div.header a svg
+{
+    width: 200px;
+    fill: var(--light);
+}

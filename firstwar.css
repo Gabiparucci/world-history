@@ -11,12 +11,12 @@ div.header-firstwar{
 
 div.header-firstwar h6{
     font-size: 50px;
-    color: #ccc;
+    color: var(--neutral);
 }
 
 div.header-firstwar p{
     font-size: 30px;
-    color: #ccc;
+    color: var(--neutral);
 }
 
 div.content-one,

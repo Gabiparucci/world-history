@@ -1,5 +1,7 @@
 :root {
     --primary: rgba(0, 0, 0, 0.54);
+    --light: #fff;
+    --neutral: #ccc;
 }
 
 /*menu*/
@@ -73,7 +75,7 @@ header div h1 span {
 header div svg,
 div.about svg {
     width: 200px;
-    fill: #000;
+    fill: var(--primary);
 }
 
 /*networks*/
@@ -239,8 +241,38 @@ footer {
     padding: 0 20% !important;
 }
 
+footer div.about-site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 341px;
+}
+
+footer div.about-site div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.about-site p{
+    line-height: 20px;
+    color: var(--neutral);
+}
+
+footer div.about-site div.logo h6{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 30px;
+    color: var(--neutral);
+}
+
+footer div.about-site div.logo svg{
+    width: 40px;
+    fill: var(--neutral);
+}
+
 footer div.menu-footer {
-    width: 500px;
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,17 +282,17 @@ footer div.menu-footer {
 footer div.menu-footer h4 {
     line-height: 74px;
     font-size: 40px;
-    color: #ccc;
+    color: var(--neutral);
 }
 
 footer div.menu-footer ul li svg {
-    fill: #ccc;
+    fill: var(--neutral);
     width: 20px;
 }
 
 footer div.menu-footer ul li a {
     line-height: 40px;
-    color: #ccc;
+    color: var(--neutral);
     font-size: 20px;
     text-decoration: none;
 }
@@ -294,12 +326,12 @@ footer div.info div.phone div.title-phone {
 footer div.info div.address div.title-address h6,
 footer div.info div.phone div.title-phone h6 {
     font-size: 30px;
-    color: #ccc;
+    color: var(--neutral);
 }
 
 footer div.info div.address p,
 footer div.info div.phone p {
-    color: #ccc;
+    color: var(--neutral);
     font-size: 20px;
     line-height: 40px;
 }
@@ -307,6 +339,6 @@ footer div.info div.phone p {
 footer div.info div.address div.title-address svg,
 footer div.info div.phone div.title-phone svg {
     width: 34px;
-    fill: #cccccc;
+    fill: var(--neutral);
     margin-right: 15px;
 }

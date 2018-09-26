@@ -11,19 +11,19 @@ div.header-contact{
 
 div.header-contact h6{
     font-size: 50px;
-    color: #ccc;
+    color: var(--neutral);
 }
 
 div.header-contact p{
     font-size: 30px;
-    color: #ccc;
+    color: var(--neutral);
 }
 
 section.informations{
     display: flex;
     align-items: center;
     justify-content: center;
-   height: 400px;
+    height: 400px;
 }
 
 section.informations div.location,
@@ -34,7 +34,7 @@ section.informations div.email{
     justify-content: center;
     width: 390px;
     height: 190px;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid var(--neutral);
     flex-direction: column;
 }
 
@@ -46,15 +46,20 @@ section.informations div.location svg,
 section.informations div.contact-us svg,
 section.informations div.email svg{
     width: 70px;
-    fill: #ccc;
+    fill: var(--neutral);
 }
 
 section.informations div.location h6,
 section.informations div.contact-us h6,
-section.informations div.email h6,
-section.talk h6{
+section.informations div.email h6
+{
     font-size: 18px;
     margin-top: 5%;
+    color: var(--primary);
+}
+
+section.talk h6{
+    font-size: 47px;
     color: var(--primary);
 }
 
@@ -71,12 +76,59 @@ section.talk{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 80vh;
+    height: 60vh;
 }
 
-section.talk form div.form-left{
+section.talk form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+section.talk form div.form-left,
+section.talk form div.form-right{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+section.talk form div.form-left{
+    width: 600px;
+}
+
+section.talk form div.form-left{
+    flex: 1;
+}
+
+section.talk form div.form-left input,
+section.talk form div.form-right button{
+    height: 50px;
+}
+
+section.talk form div.form-left input,
+section.talk form div.form-right textarea{
+    padding-left: 15px;
+}
+
+section.talk form div.form-left input,
+section.talk form div.form-right textarea,
+section.talk form div.form-right button{
+    width: 500px;
+    margin-bottom: 24px;
+}
+
+section.talk form div.form-right textarea{
+    height: 202px;
+    padding-top: 15px;
+}
+
+section.talk form div.form-right button{
+    background-color: var(--primary);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    outline: none;
 }

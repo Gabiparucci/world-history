@@ -25,7 +25,7 @@
 }
 
 .imgareaselect-handle {
-    background-color: #fff;
+    background-color: var(--light);
 	border: solid 1px #000;
     filter: alpha(opacity=50);
 	opacity: 0.5;

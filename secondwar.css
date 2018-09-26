@@ -11,12 +11,12 @@ div.header-second-war{
 
 div.header-second-war h6{
     font-size: 50px;
-    color: #000000;
+    color: var(--primary);
 }
 
 div.header-second-war p{
     font-size: 30px;
-    color: #000000;
+    color: var(--primary);
 }
 
 div.content-one,

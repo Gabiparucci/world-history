@@ -11,12 +11,12 @@ div.header-vietnam{
 
 div.header-vietnam h6{
     font-size: 50px;
-    color: #000000;
+    color: var(--primary);
 }
 
 div.header-vietnam p{
     font-size: 30px;
-    color: #000000;
+    color: var(--primary);
 }
 
 div.content-one,
@@ -58,4 +58,9 @@ div.content-four div.img-fourcontent{
 div.content-four div.img-fourcontent img{
     width: 400px;
     height: 300px;
+}
+
+
+div.video {
+    height: 60vh;
 }
